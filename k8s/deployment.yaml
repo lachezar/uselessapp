@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: uselessapp
+  labels:
+    app: uselessapp
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: uselessapp
+  template:
+    metadata:
+      labels:
+        app: uselessapp
+    spec:
+      containers:
+        - name: uselessapp
+          image: sha256:daff6be67a12732b2a93f3e8c6177fcd4812516a37f4a5ae83044a595285f049
+          ports:
+            - containerPort: 80

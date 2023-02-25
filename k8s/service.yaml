@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: uselessapp-service
+spec:
+  selector:
+    app: uselessapp
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
