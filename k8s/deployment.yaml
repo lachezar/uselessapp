@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: uselessapp
-          image: sha256:6f8204c78c7991f050d34ac42d3be408c3eeb71c903ddf46d52be34679caf07e
+          image: sha256:39afff5d2968174e369e84daa06395ef43ca78ee5a37ba94040bfdddaff218c8
           ports:
             - containerPort: 80
