@@ -9,3 +9,4 @@ RUN yarn build
 FROM caddy:alpine
 
 COPY --from=build /uselessapp/public/ /usr/share/caddy/
+COPY --from=build /uselessapp/Caddyfile /etc/caddy/Caddyfile
