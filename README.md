@@ -42,3 +42,10 @@ After that build a docker image (`docker build .`) and set it in the `deployment
 Now you should be able to open `https://<domain you specified in ingress.yaml>` and observe the Useless app in your browser!
 
 _TODO: Add ArgoCD to install the helm charts and the k8s files._
+
+# Screenshots:
+
+<img width="800" alt="uselessapp" src="https://user-images.githubusercontent.com/130336/222905359-553c3368-d6c5-4b9a-8a68-dd42516c62c1.png">
+
+<img width="800" alt="grafana" src="https://user-images.githubusercontent.com/130336/222905246-34f27d52-2c11-4fcd-94a2-bb1f984daf13.png">
+​
